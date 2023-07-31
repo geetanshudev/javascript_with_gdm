@@ -1,0 +1,39 @@
+<!--to find the largest of three number -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>compare three numbers </title>
+
+</head>
+<body>
+<h3>To compare the given three numbers </h3>
+
+<script>
+let a = parseInt(prompt("Enter first number = "));
+let b = parseInt(prompt("Enter second number = "));
+let c = parseInt(prompt("Enter third number = "));
+let mx = 0;
+
+if(a>b){
+	if(a>c){
+		mx = a;
+	}else{
+		mx = c;
+	}
+
+}else{
+	if(b>c){
+		mx = b;
+	}else{
+		mx = c;
+	}
+	
+}
+
+document.write(mx+" is the greatest number of all three number . ")
+</script>
+
+<script>
+</script>
+</body>
+</html>
