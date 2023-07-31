@@ -1,0 +1,43 @@
+<!--Map Filter Reduce-->
+<!DOCTYPE html>
+<html>
+<head>
+<title> Map Filte Reduce</title>
+
+</head>
+<body>
+In javascript some of the important function in arrays
+<hr>
+<script>
+
+	document.write("<br>map() ==>");
+
+	let ar1 = [10,20,30,40,50,60]
+	
+
+	let ar2 = ar1.map(multiply)
+	function multiply(val){
+		return val * 2
+	}
+	document.write(ar2+" ");
+	document.write("<br>");
+	
+	document.write("<br>filter() ==>");
+
+	let ar3 = ar1.filter(less40);
+	function less40(val){
+		return val < 40;
+	}
+	document.write(ar3+" ");
+
+	document.write("<br>reduce() ==>");
+	let ar4 = ar1.reduce(add);
+	function add(sum,val){
+		return sum + val;
+	}
+	document.write(ar4);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+h4 {font-size: 120%; color:yellowgreen;}
+button {
+    color: magenta;
+    transition: color 200ms ease-in 50ms;
+   }
+   button:hover {
+    color: rebeccapurple;
+    transition: color 200ms ease-out 50ms;
+   }
